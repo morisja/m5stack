@@ -34,7 +34,8 @@ $ pip3 install pillow
 Underestimate the amount of time you need to figure out bitmaks
 ## Image format
 M5 needs images in the R5G6B5 format, 16 bits in total, 2 adjacent bytes.
-Pillow can be told to return an RGB tuple, this needs to be shifted and built into 2 bytes, the `hex_from_pixel` function in `gif2c.py` takes care of this.
+Pillow can be told to return an RGB tuple, this needs to be shifted and built into 2 bytes, the `hex_from_pixel` function in `img2c.py` takes care of this.
+This script is now updated to support gif and jpg formats, returning an array of frames (length 1 in the case of jpg)
 
 ## Continue..
 Generate both the c and h files for the image, include in gif.ino.
