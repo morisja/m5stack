@@ -1,4 +1,4 @@
-#include <M5StickC.h>
+#include <M5StickCPlus.h>
 const int initial_brightness = 10;
 
 #include <stdio.h>
@@ -8,10 +8,12 @@ const int initial_brightness = 10;
 
 #define PI 3.141
 //m5stickc is 80 x 160, the plus is bigger
+//plus is 135x240
+
 #define IMG_X 6
 #define IMG_Y 6
-#define X_MAX 160 - IMG_X - 1
-#define Y_MAX 80 - IMG_Y - 1
+#define X_MAX 240 - IMG_X - 1
+#define Y_MAX 135 - IMG_Y - 1
 #define X_MIN 1
 #define Y_MIN 1
 

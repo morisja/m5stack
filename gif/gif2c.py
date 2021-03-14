@@ -69,6 +69,3 @@ image_data=gif_to_c("spongebob-small.gif")
 
 generate_hfile("img", "spongebob")
 generate_cfile(image_data, "img", "spongebob")
-
-
-#h file
