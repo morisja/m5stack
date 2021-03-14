@@ -80,7 +80,7 @@ void print_rect(struct Coord *pos)
 }
 
 
-void dvd(void)
+void bounce(void)
 {
     double angle_rads = 0.75;
 
@@ -119,5 +119,5 @@ void setup(void)
 
 void loop(void)
 {
-    dvd();
+    bounce();
 }
