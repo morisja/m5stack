@@ -88,3 +88,5 @@ Hard resetting via RTS pin...
 The most simple example I could write
 ### bounce
 a square bouncing around the screen.
+### gif
+convert gifs to the required c file to render on screen
